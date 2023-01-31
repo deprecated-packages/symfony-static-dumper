@@ -65,5 +65,13 @@
         "release": "vendor/bin/monorepo-builder release patch --ansi"
     },
     "minimum-stability": "dev",
-    "prefer-stable": true
+    "prefer-stable": true,
+    "config": {
+        "sort-packages": true,
+        "platform-check": false,
+        "allow-plugins": {
+            "cweagans/composer-patches": true,
+            "phpstan/extension-installer": true
+        }
+    }
 }
