@@ -26,7 +26,9 @@
         "symfony/twig-bundle": "6.1.*",
         "symplify/easy-ci": "^11.1",
         "symplify/easy-coding-standard": "^11.1",
-        "rector/rector": "^0.15.10"
+        "rector/rector": "^0.15.10",
+        "symplify/phpstan-extensions": "^11.1",
+        "tomasvotruba/unused-public": "^0.0.34"
     },
     "autoload": {
         "psr-4": {
